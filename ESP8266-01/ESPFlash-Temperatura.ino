@@ -86,7 +86,7 @@ void loop() {
         }
       }
     }
-    delay(1);
+    delay(5);
     client.stop();
     Serial.println("Rozlaczono z klientem.");
   }
